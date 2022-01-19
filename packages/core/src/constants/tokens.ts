@@ -17,6 +17,7 @@ export const USDC: TokenMap = {
   [ChainId.XDAI]: new Token(ChainId.XDAI, USDC_ADDRESS[ChainId.XDAI], 6, 'USDC', 'USD Coin'),
   [ChainId.ARBITRUM]: new Token(ChainId.ARBITRUM, USDC_ADDRESS[ChainId.ARBITRUM], 6, 'USDC', 'USD Coin'),
   [ChainId.MOONRIVER]: new Token(ChainId.MOONRIVER, USDC_ADDRESS[ChainId.MOONRIVER], 6, 'USDC', 'USD Coin'),
+  [ChainId.AURORA_TESTNET]: new Token(ChainId.AURORA_TESTNET, USDC_ADDRESS[ChainId.AURORA_TESTNET], 6, 'USDC', 'USD Coin'),
 }
 
 export const USD: TokenMap = {
@@ -47,6 +48,7 @@ export const WETH9: TokenMap = {
   [ChainId.XDAI]: new Token(ChainId.XDAI, WETH9_ADDRESS[ChainId.XDAI], 18, 'WETH', 'Wrapped Ether'),
   [ChainId.AVALANCHE]: new Token(ChainId.AVALANCHE, WETH9_ADDRESS[ChainId.AVALANCHE], 18, 'WETH', 'Wrapped Ether'),
   [ChainId.PALM]: new Token(ChainId.PALM, WETH9_ADDRESS[ChainId.PALM], 18, 'WETH', 'Wrapped Ether'),
+  [ChainId.AURORA_TESTNET]: new Token(ChainId.AURORA_TESTNET, WETH9_ADDRESS[ChainId.AURORA_TESTNET], 18, 'WETH', 'Wrapped Ether'),
 }
 
 export const WNATIVE: TokenMap = {
@@ -132,6 +134,13 @@ export const WNATIVE: TokenMap = {
   ),
   [ChainId.FUSE]: new Token(ChainId.FUSE, WNATIVE_ADDRESS[ChainId.FUSE], 18, 'WFUSE', 'Wrapped Fuse'),
   [ChainId.TELOS]: new Token(ChainId.TELOS, WNATIVE_ADDRESS[ChainId.TELOS], 18, 'WTLOS', 'Wrapped Telos'),
+  [ChainId.AURORA_TESTNET]: new Token(
+    ChainId.AURORA_TESTNET,
+    WNATIVE_ADDRESS[ChainId.AURORA_TESTNET],
+    18,
+    'AURORA',
+    'Wrapped Aurora'
+  ),
 }
 
 export const SUSHI: ChainTokenMap = {
@@ -151,4 +160,5 @@ export const SUSHI: ChainTokenMap = {
   [ChainId.HECO]: new Token(ChainId.HECO, SUSHI_ADDRESS[ChainId.HECO], 18, 'SUSHI', 'SushiToken'),
   [ChainId.CELO]: new Token(ChainId.CELO, SUSHI_ADDRESS[ChainId.CELO], 18, 'SUSHI', 'SushiToken'),
   [ChainId.MOONRIVER]: new Token(ChainId.MOONRIVER, SUSHI_ADDRESS[ChainId.MOONRIVER], 18, 'SUSHI', 'SushiToken'),
+  [ChainId.AURORA_TESTNET]: new Token(ChainId.AURORA_TESTNET, SUSHI_ADDRESS[ChainId.AURORA_TESTNET], 18, 'SUSHI', 'SushiToken'),
 }
