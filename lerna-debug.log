@@ -1,0 +1,10 @@
+47 error Error: Command failed with exit code 1: git add -- packages/limit-order/package.json packages/kashi/package.json packages/bentobox/package.json packages/tines/package.json packages/miso/package.json packages/trident/package.json packages/core/package.json packages/core/package-lock.json
+47 error The following paths are ignored by one of your .gitignore files:
+47 error packages/core/package-lock.json
+47 error hint: Use -f if you really want to add them.
+47 error hint: Turn this message off by running
+47 error hint: "git config advice.addIgnoredFile false"
+47 error     at makeError (/Users/conve/Project/sushiswap-sdk/node_modules/execa/lib/error.js:60:11)
+47 error     at handlePromise (/Users/conve/Project/sushiswap-sdk/node_modules/execa/index.js:118:26)
+47 error     at processTicksAndRejections (internal/process/task_queues.js:95:5)
+47 error     at async Promise.all (index 0)
